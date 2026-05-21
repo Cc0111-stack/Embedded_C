@@ -30,7 +30,8 @@ void swap(func exchange, void *a, void *b)
     exchange(a, b);
 }
 
-int main() {
+int main()
+{
 
     int a = 10;
     int b = 20;

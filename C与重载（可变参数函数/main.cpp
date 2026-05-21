@@ -11,7 +11,8 @@ static void va_func(int n, ...)//n是指后面要传入多少个变量
 }
 
 
-int main() {
+int main()
+{
     va_func(1, 100);
     va_func(2, 200, 300);
 

@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 //weak修饰的函数属于弱连接函数，当前工程如果有定义相同的函数时，weak修饰的函数会被覆盖
 void __attribute__((weak)) config(void)
 {
